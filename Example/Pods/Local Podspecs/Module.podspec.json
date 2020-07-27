@@ -1,0 +1,22 @@
+{
+  "name": "Module",
+  "version": "0.1.0",
+  "summary": "A short description of Module.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/DingLei/Module",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "DingLei": "dinglei.hikari@bytedance.com"
+  },
+  "source": {
+    "git": "https://github.com/DingLei/Module.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Module/Classes/**/*"
+}
