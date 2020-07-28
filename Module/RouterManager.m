@@ -6,7 +6,6 @@
 //
 
 #import "RouterManager.h"
-//#import "MGJRouter.h"
 #import "MainViewController.h"
 #import "TestViewController.h"
 
@@ -25,7 +24,7 @@
 }
 
 
-+ (void)setupRouter{
++ (void)load{
 //    注册
     [MGJRouter registerURLPattern:kMainVCPageURL toHandler:^(NSDictionary *routerParameters) {
         UINavigationController *navigationVC = routerParameters[MGJRouterParameterUserInfo][@"navigationVC"];

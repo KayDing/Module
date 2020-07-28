@@ -11,7 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface RouterManager : NSObject
 @property (nonatomic, strong) UIViewController *rootVC;
-+ (void)setupRouter;
+
++ (void)load;
 @end
 
 NS_ASSUME_NONNULL_END

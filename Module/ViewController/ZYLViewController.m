@@ -1,25 +1,20 @@
 //
-//  TestViewController.m
+//  ZYLViewController.m
 //  MGJRouter
 //
-//  Created by 丁磊 on 2020/7/27.
+//  Created by 丁磊 on 2020/7/28.
 //
 
-#import "TestViewController.h"
+#import "ZYLViewController.h"
 
-@interface TestViewController ()
+@interface ZYLViewController ()
 
 @end
 
-@implementation TestViewController
+@implementation ZYLViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UILabel *lab = [[UILabel alloc] initWithFrame: CGRectMake(50, 200, 300, 50)];
-    lab.text = [NSString stringWithFormat: @"TestViewController %@",self.text];
-    lab.font = [UIFont systemFontOfSize: 20];
-    lab.textColor = [UIColor blackColor];
-    [self.view addSubview: lab];
     // Do any additional setup after loading the view.
 }
 
