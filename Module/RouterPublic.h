@@ -10,5 +10,5 @@
 #define RouterPublic_h
 
 #define kMainVCPageURL @"DEMO://MainVC"
-#define kTestVCPageURL @"DEMO://MainVC"
+#define kTestVCPageURL @"DEMO://TestVC"
 #endif /* RouterPublic_h */
